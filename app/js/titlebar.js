@@ -25,10 +25,12 @@ win.on('restore', function() {
 //Listen to the maximize event
 win.on('maximize', function() {
 	document.getElementById("maximize_button").id = "unmaximize_button";
+	document.getElementById("maximize_button_img").src = "../img/unmaximize_button.png";
 });
 //Listen to the unmaximize event
 win.on('unmaximize', function() {
 	document.getElementById("unmaximize_button").id = "maximize_button";
+	document.getElementById("maximize_button_img").src = "../img/maximize_button.png";
 });
 
 
@@ -58,5 +60,3 @@ if (maximize_button != null) {
 		}
 	}
 }
-
-

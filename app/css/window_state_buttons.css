@@ -1,9 +1,11 @@
 @CHARSET "ISO-8859-1";
 
+
+
 #window_state_buttons {
 	float: right;
 	height: 100%;
-	width: 125px;
+	width: 130px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -11,43 +13,46 @@
 	float: left;
 	width: 33%;
 	height: 100%;
-	padding: 1px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	-webkit-app-region: no-drag;
-}
-#minimize_button:hover {
-	cursor: default;
-	background-color: #575757;
 }
 #maximize_button {
 	width: 34%;
 	margin: 0px auto;
-	padding: 1px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	height: 100%;
 	-webkit-app-region: no-drag;
-}
-#maximize_button:hover {
-	cursor: default;
-	background-color: #575757;
 }
 #unmaximize_button {
 	width: 34%;
 	margin: 0px auto;
-	padding: 1px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	height: 100%;
 	-webkit-app-region: no-drag;
-}
-#unmaximize_button:hover {
-	cursor: default;
-	background-color: #575757;
 }
 #close_button {
 	float: right;
 	width: 33%;
 	height: 100%;
-	padding: 1px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	-webkit-app-region: no-drag;
+}
+
+#minimize_button:hover,
+#maximize_button:hover,
+#unmaximize_button:hover {
+	cursor: default;
+	background-color: #4a4a4a;
 }
 #close_button:hover {
 	cursor: default;
-	background-color: #d02613;
+	background-color: #e71232;
+}
+#minimize_button img,
+#minimize_button img,
+#maximize_button img,
+#unmaximize_button img,
+#close_button img {
+	width:12px;
+	height:12px;
 }
