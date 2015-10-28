@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>VideoNode</title>
-</head>
-<body>
-	<h1>VideoNode</h1>
-	<p>A desktop app to create a library of Movies, TV shoes, and other videos and play them. Built using Node.js, nw.js, HTML, CSS, and javascript.</p>
-</body>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Video-Node</title>
+		<link type="text/css" rel="stylesheet" href="../css/app.css" >
+
+	</head>
+	<body>
+		<header class="titleBar">
+
+			<!-- Window State Buttons (right) -->
+			<div id="window_state_buttons">
+				<div id="minimize_button" ><h1>&#8212</h1></div>
+				<div id="close_button" ><h1>X</h1></div>
+
+				<div id="maximize_button" ><h1>+</h1></div>
+			</div>
+
+
+			<!-- Title (center) -->
+			<div id="title" >
+				<h1>VideoNode</h1>
+			</div>
+
+		</header>
+
+		<header class="menuBar">
+			<!-- Action Buttons (left) -->
+			<div id="action_buttons">
+				<div id="back_button" ><h1>&lt</h1></div>
+				<div id="forward_button" ><h1>&gt</h1></div>
+			</div>
+
+
+		</header>
+
+		<div class="container">
+
+
+		</div>
+
+
+		<!-- javascript -->
+		<script src="../js/app.js"></script>
+		<script src="../js/titlebar.js"></script>
+		<!-- end js -->
+
+
+	</body>
 </html>
