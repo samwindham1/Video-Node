@@ -1,4 +1,5 @@
-# Video-Node
-Desktop app to play local videos and movies. Built using nw.js and node.js.
+# VideoNode
+A local video library that utilizes VLC to play TV Shows and Movies. Implemented with Node.js, NW.js, HTML, JavaScript, and CSS.
+Inspiration for approach from SoundNode: https://github.com/Soundnode/soundnode-app
 
-more info to come...
+More to come soon...
