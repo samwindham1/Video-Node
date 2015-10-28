@@ -1,11 +1,11 @@
 {
-  "name": "videonode",
+  "name": "Video-Node",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  
-    "homepage": "https://github.com/samwindham1/videonode",
-    "bugs": "https://github.com/samwindham1/videonode/issues",
+
+    "homepage": "https://github.com/samwindham1/Video-Node.git",
+    "bugs": "https://github.com/samwindham1/Video-Node/issues",
     "author": {
       "name": "Sam Windham",
       "email": "",
@@ -13,9 +13,9 @@
     },
     "repository": {
       "type": "git",
-      "url": "git://github.com/samwindham1/videonode.git"
+      "url": "git://github.com/samwindham1/Video-Node.git"
     },
-  
+
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.5",

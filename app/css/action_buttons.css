@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+#action_buttons {
+	float: left;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+#back_button {
+	float: left;
+	width: 50px;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+#back_button:hover {
+	cursor: default;
+	background-color: #52525c;
+}
+#forward_button {
+	float: right;
+	width: 50px;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+#forward_button:hover {
+	cursor: default;
+	background-color: #52525c;
+}

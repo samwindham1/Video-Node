@@ -1,15 +1,15 @@
 {
-  "name": "videonode",
+  "name": "Video-Node",
   "main": "views/index.html",
   "version": "0.0.1",
   "single-instance": true,
   "window": {
-    "title": "VideoNode",
-    "width": 650,
-    "height": 650,
-    "min_width": 650,
-    "min_height": 650,
-    "toolbar": false
-  },
-  "chromium-args": "--child-clean-exit"
+
+		"toolbar": false,
+		"width": 800,
+		"height": 600,
+		"frame": false,
+		"min_width": 600,
+		"min_height": 400
+  }
 }

@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+/* action buttons float left */
+@import url("action_buttons.css");
+/* end action buttons */
+
+/* windows state buttons float right */
+@import url("window_state_buttons.css");
+/* end window sate buttons */
+
+.titleBar {
+	background-color: #2a2a2a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 35px;
+	width: 100%;
+	overflow: hidden;
+	-webkit-app-region: drag;
+}
+.menuBar {
+	background-color: #2a2a2a;
+	position: fixed;
+	top: 34px;
+	left: 0;
+	right: 0;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+	-webkit-app-region: drag;
+}
+
+#title {
+	margin: 0px auto;
+	text-align: center;
+	width: 30%;
+	height: 100%;
+}
+
+/* 	border: 2px solid #040308; */
+/* 	border-style: none none solid none; */

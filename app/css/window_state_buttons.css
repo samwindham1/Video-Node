@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+#window_state_buttons {
+	float: right;
+	height: 100%;
+	width: 125px;
+	text-align: center;
+	overflow: hidden;
+}
+#minimize_button {
+	float: left;
+	width: 33%;
+	height: 100%;
+	padding: 1px 0px 0px 0px;
+	-webkit-app-region: no-drag;
+}
+#minimize_button:hover {
+	cursor: default;
+	background-color: #575757;
+}
+#maximize_button {
+	width: 34%;
+	margin: 0px auto;
+	padding: 1px 0px 0px 0px;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+#maximize_button:hover {
+	cursor: default;
+	background-color: #575757;
+}
+#unmaximize_button {
+	width: 34%;
+	margin: 0px auto;
+	padding: 1px 0px 0px 0px;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+#unmaximize_button:hover {
+	cursor: default;
+	background-color: #575757;
+}
+#close_button {
+	float: right;
+	width: 33%;
+	height: 100%;
+	padding: 1px 0px 0px 0px;
+	-webkit-app-region: no-drag;
+}
+#close_button:hover {
+	cursor: default;
+	background-color: #d02613;
+}
