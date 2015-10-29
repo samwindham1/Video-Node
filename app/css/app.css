@@ -2,12 +2,12 @@
 
 /* top header title bar with control buttons */
 @import url("titlebar.css");
-/* end title bar */
-
-/*import Open Sans font*/
+/* menu bar with forward/back buttons and search box */
+@import url("menubar.css");
+/* Open Sans font */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
-/*end font import*/
-
+/* icons */
+@import url("../css/icon_style.css");
 
 p {
 	color: #ffffff;
@@ -20,13 +20,13 @@ h1 {
 	color: #ffffff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 10px;
+	font-weight: 400;
+	font-size: 11px;
 }
 html {
 	margin: 0px;
-  	padding: 0px;
-  	overflow: hidden;
+	padding: 0px;
+	overflow: hidden;
 	-webkit-user-select: none;
 }
 body {
@@ -34,7 +34,7 @@ body {
 	background-color: #1f1f1f;
 }
 /** {
- 	border: 1px dotted #FFFFFF;
+	border: 1px dotted #FFFFFF;
 }*/
 
 

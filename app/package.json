@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "single-instance": true,
   "window": {
-
 		"toolbar": false,
 		"width": 800,
 		"height": 600,

@@ -4,17 +4,17 @@
   "description": "",
   "keywords": [],
 
-    "homepage": "https://github.com/samwindham1/Video-Node.git",
-    "bugs": "https://github.com/samwindham1/Video-Node/issues",
-    "author": {
-      "name": "Sam Windham",
-      "email": "",
-      "url": "https://github.com/samwindham1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/samwindham1/Video-Node.git"
-    },
+  "homepage": "https://github.com/samwindham1/Video-Node.git",
+  "bugs": "https://github.com/samwindham1/Video-Node/issues",
+  "author": {
+    "name": "Sam Windham",
+    "email": "",
+    "url": "https://github.com/samwindham1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samwindham1/Video-Node.git"
+  },
 
   "dependencies": {},
   "devDependencies": {

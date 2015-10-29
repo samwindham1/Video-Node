@@ -1,0 +1,178 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.icon-name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+.icon-search {
+	width: 0.9287109375em;
+}
+
+.icon-star {
+	width: 0.9287109375em;
+}
+
+.icon-star-o {
+	width: 0.9287109375em;
+}
+
+.icon-film {
+	width: 1.0712890625em;
+}
+
+.icon-th-large {
+	width: 0.9287109375em;
+}
+
+.icon-cog {
+	width: 0.8571428571428572em;
+}
+
+.icon-trash-o {
+	width: 0.7861328125em;
+}
+
+.icon-play-circle-o {
+	width: 0.8571428571428572em;
+}
+
+.icon-volume-off {
+	width: 0.4287109375em;
+}
+
+.icon-volume-down {
+	width: 0.642578125em;
+}
+
+.icon-volume-up {
+	width: 0.9287109375em;
+}
+
+.icon-image {
+	width: 1.0712890625em;
+}
+
+.icon-step-backward {
+	width: 0.5712890625em;
+}
+
+.icon-backward {
+	width: 0.9287109375em;
+}
+
+.icon-play {
+	width: 0.7861328125em;
+}
+
+.icon-pause {
+	width: 0.8571428571428572em;
+}
+
+.icon-stop {
+	width: 0.8571428571428572em;
+}
+
+.icon-forward {
+	width: 0.9287109375em;
+}
+
+.icon-step-forward {
+	width: 0.5712890625em;
+}
+
+.icon-chevron-left {
+	width: 0.7138671875em;
+}
+
+.icon-chevron-right {
+	width: 0.7138671875em;
+}
+
+.icon-question-circle {
+	width: 0.8571428571428572em;
+}
+
+.icon-info-circle {
+	width: 0.8571428571428572em;
+}
+
+.icon-expand {
+	width: 0.8571428571428572em;
+}
+
+.icon-compress {
+	width: 0.8571428571428572em;
+}
+
+.icon-plus {
+	width: 0.7861328125em;
+}
+
+.icon-minus {
+	width: 0.7861328125em;
+}
+
+.icon-folder {
+	width: 0.9287109375em;
+}
+
+.icon-folder-open {
+	width: 1.0712890625em;
+}
+
+.icon-star-half {
+	width: 0.5em;
+}
+
+.icon-arrows-alt {
+	width: 0.8571428571428572em;
+}
+
+.icon-caret-down {
+	width: 0.5712890625em;
+}
+
+.icon-caret-up {
+	width: 0.5712890625em;
+}
+
+.icon-angle-up {
+	width: 0.642578125em;
+}
+
+.icon-angle-down {
+	width: 0.642578125em;
+}
+
+.icon-ellipsis-h {
+	width: 0.7861328125em;
+}
+
+.icon-ellipsis-v {
+	width: 0.2138671875em;
+}
+
+.icon-sort-alpha-asc {
+	width: 0.9287109375em;
+}
+
+.icon-sort-alpha-desc {
+	width: 0.9287109375em;
+}
+
+.icon-toggle-off {
+	width: 1.142578125em;
+}
+
+.icon-toggle-on {
+	width: 1.142578125em;
+}

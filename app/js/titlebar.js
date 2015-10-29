@@ -2,7 +2,6 @@
  * http://usejsdoc.org/
  */
 
-
 //Load native UI library
 var gui = require('nw.gui'); //or global.window.nwDispatcher.requireNwGui()
 //Get the current window
@@ -16,41 +15,49 @@ win.on('close', function() {
 });
 //Listen to the minimize event
 win.on('minimize', function() {
-	//this.hide();
-})
+});
 //Listen to the restore event
 win.on('restore', function() {
-	//this.show();
 });
 //Listen to the maximize event
 win.on('maximize', function() {
-	document.getElementById("maximize_button").id = "unmaximize_button";
-	document.getElementById("maximize_button_img").src = "../img/unmaximize_button.png";
+	// switch id
+	var element = document.getElementById("maximize");
+	element.id = "unmaximize";
+	// switch icon
+	var classList = element.firstChild.classList;
+	classList.remove('icon-maximize');
+	classList.add('icon-unmaximize');
 });
 //Listen to the unmaximize event
 win.on('unmaximize', function() {
-	document.getElementById("unmaximize_button").id = "maximize_button";
-	document.getElementById("maximize_button_img").src = "../img/maximize_button.png";
+	// switch id
+	var element = document.getElementById("unmaximize");
+	element.id = "maximize";
+	// switch icon
+	var classList = element.firstChild.classList;
+	classList.remove('icon-unmaximize');
+	classList.add('icon-maximize');
 });
 
 
 // close on click
-var close_button = document.getElementById('close_button');
+var close_button = document.getElementById('close');
 close_button.onclick = function() {
 	// close the window
 	win.close();
 }
 // minimize on click
-var minimize_button = document.getElementById('minimize_button');
+var minimize_button = document.getElementById('minimize');
 minimize_button.onclick = function() {
 	// minimize the window
 	win.minimize();
 }
 // maximize on click
-var maximize_button = document.getElementById('maximize_button');
+var maximize_button = document.getElementById('maximize');
 if (maximize_button != null) {
 	maximize_button.onclick = function() {
-		if(maximize_button.id === "maximize_button") {
+		if(maximize_button.id === "maximize") {
 			// maximize the window
 			win.maximize();
 		}

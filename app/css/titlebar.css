@@ -1,14 +1,11 @@
 @CHARSET "ISO-8859-1";
 
-/* action buttons float left */
-@import url("action_buttons.css");
-/* end action buttons */
-
 /* windows state buttons float right */
 @import url("window_state_buttons.css");
 /* end window sate buttons */
 
-.titleBar {
+
+.titlebar {
 	background-color: #2a2a2a;
 	position: fixed;
 	top: 0;
@@ -19,24 +16,28 @@
 	overflow: hidden;
 	-webkit-app-region: drag;
 }
-.menuBar {
-	background-color: #2a2a2a;
-	position: fixed;
-	top: 28px;
-	left: 0;
-	right: 0;
-	height: 50px;
-	width: 100%;
-	overflow: hidden;
-	-webkit-app-region: drag;
-}
 
-#title {
+.title {
 	margin: 0px auto;
 	text-align: center;
 	width: 30%;
 	height: 100%;
 }
+.title h1 {
+	color: #9a9a9a;
+}
+
+/*top left icon*/
+/*#video-node-icon {
+	float: left;
+	width: 100px;
+	height: 100%;
+	padding: 5px 0px 0px 5px;
+}
+#video-node-icon img{
+	width: 22px;
+	height: 22px;
+}*/
 
 /* 	border: 2px solid #040308; */
 /* 	border-style: none none solid none; */

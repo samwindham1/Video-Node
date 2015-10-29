@@ -1,58 +1,53 @@
 @CHARSET "ISO-8859-1";
 
-
-
-#window_state_buttons {
+.window-states {
 	float: right;
 	height: 100%;
 	width: 130px;
 	text-align: center;
 	overflow: hidden;
 }
-#minimize_button {
+
+.window-states .button {
+	height: 100%;
+	padding: 5px 0px 0px 0px;
+	-webkit-app-region: no-drag;
+	-webkit-transition: background-color 0.15s;
+}
+#minimize.button {
 	float: left;
 	width: 33%;
-	height: 100%;
-	padding: 5px 0px 0px 0px;
-	-webkit-app-region: no-drag;
 }
-#maximize_button {
-	width: 34%;
+#maximize.button {
 	margin: 0px auto;
-	padding: 5px 0px 0px 0px;
-	height: 100%;
-	-webkit-app-region: no-drag;
-}
-#unmaximize_button {
 	width: 34%;
-	margin: 0px auto;
-	padding: 5px 0px 0px 0px;
-	height: 100%;
-	-webkit-app-region: no-drag;
 }
-#close_button {
+#unmaximize.button {
+	margin: 0px auto;
+	width: 34%;
+}
+#close.button {
 	float: right;
 	width: 33%;
 	height: 100%;
-	padding: 5px 0px 0px 0px;
-	-webkit-app-region: no-drag;
 }
 
-#minimize_button:hover,
-#maximize_button:hover,
-#unmaximize_button:hover {
+/*hover state*/
+#minimize.button:hover,
+#maximize.button:hover,
+#unmaximize.button:hover {
 	cursor: default;
 	background-color: #4a4a4a;
+	-webkit-transition: none;
 }
-#close_button:hover {
+#close.button:hover {
 	cursor: default;
 	background-color: #e71232;
+	-webkit-transition: none;
 }
-#minimize_button img,
-#minimize_button img,
-#maximize_button img,
-#unmaximize_button img,
-#close_button img {
-	width:12px;
-	height:12px;
+
+/* icons */
+.window-states .button span{
+		font-size: 0.6em;
+		color: #dedede;
 }

@@ -2,36 +2,46 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Video-Node</title>
+		<title>Video Node</title>
 		<link rel="stylesheet" href="../css/app.css" type="text/css">
-
+		<!-- other css -->
 	</head>
 	<body>
-		<header class="titleBar">
+		<header class="titlebar">
 
 			<!-- Window State Buttons (right) -->
-			<div id="window_state_buttons">
-				<div id="minimize_button" ><img src="../img/minimize_button.png" alt="-"></div>
-				<div id="close_button" ><img src="../img/close_button.png" alt="x"></div>
+			<div class="window-states">
+				<div id="minimize" class="button" ><span class="icon icon-minimize"></span></div>
+				<div id="close" class="button" ><span class="icon icon-close"></span></div>
 
-				<div id="maximize_button" ><img src="../img/maximize_button.png" alt="+" id="maximize_button_img"></div>
+				<div id="maximize" class="button" ><span class="icon icon-maximize"></span></div>
 			</div>
+			<!-- icon top left -->
+			<!-- <div id="video-node-icon">
+				<img src="../img/video-node-icon.png" alt="icon" />
+			</div> -->
 
 			<!-- Title (center) -->
-			<div id="title" >
+			<div class="title" >
 				<h1>Video Node</h1>
 			</div>
 
 		</header>
 
-		<header class="menuBar">
+		<header class="menubar">
 			<!-- Action Buttons (left) -->
-			<div id="action_buttons">
-				<div id="back_button" ><img src="../img/back_button.png" alt="<"></div>
-				<div id="forward_button" ><img src="../img/forward_button.png" alt=">"></div>
+			<div class="action-buttons">
+				<div id="back" class="button" ><span class="icon icon-left"></span></div>
+				<div id="forward" class="button" ><span class="icon icon-right"></span></div>
 			</div>
 
-
+			<!-- Search Box -->
+			<div class="searchbox">
+				<div class="container-1">
+					<span class="icon icon-search"></span>
+					<input type="search" id="search" placeholder="Search..." />
+				</div>
+			</div>
 		</header>
 
 		<div class="container">

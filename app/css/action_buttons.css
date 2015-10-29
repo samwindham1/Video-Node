@@ -1,35 +1,33 @@
 @CHARSET "ISO-8859-1";
 
-#action_buttons {
+.action-buttons {
 	float: left;
-	height: 100%;
-	width: 100px;
+	height: 80%;
+	width: 60px;
 	text-align: center;
+	padding: 24px 0px 0px 0px;
 	overflow: hidden;
 }
-#back_button {
+.action-buttons .button {
+	width: 50%;
+	height: 100%;
+	-webkit-app-region: no-drag;
+}
+#back.button {
 	float: left;
-	width: 50%;
-	height: 100%;
-	padding: 16px 0px 0px 0px;
-	-webkit-app-region: no-drag;
 }
-#forward_button {
+#forward.button {
 	float: right;
-	width: 50%;
-	height: 100%;
-	padding: 16px 0px 0px 0px;
-	-webkit-app-region: no-drag;
-}
-#back_button:hover,
-#forward_button:hover {
-	cursor: default;
-	/*content:url("../img/back_button_hover.png");*/
-	background-color: #4a4a4a;
 }
 
-#back_button img,
-#forward_button img {
-	width: 16px;
-	height: 16px;
+/* icons */
+#back.button span,
+#forward.button span {
+	font-size: 0.8em;
+}
+#back.button:hover span,
+#forward.button:hover span {
+	cursor: default;
+	color: #ffffff;
+	-webkit-transition: color 0.15s;
 }
