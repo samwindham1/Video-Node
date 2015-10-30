@@ -18,7 +18,7 @@
 .container-1 input#search {
   width: 200px;
   height: 20px;
-  background: #1b1b1b;
+  background: #222222;
   border: none;
   font-size: 10pt;
   float: left;
@@ -30,10 +30,6 @@
 }
 .container-1 input#search::-webkit-input-placeholder {
    color: #9a9a9a;
-}
-.container-1 input#search:hover{
-  background: #222222;
-  -webkit-transition: background 0.25s ease;
 }
 .container-1 input#search:focus, .container-1 input#search:active{
   outline:none;

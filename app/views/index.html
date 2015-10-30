@@ -39,7 +39,7 @@
 			<div class="searchbox">
 				<div class="container-1">
 					<span class="icon icon-search"></span>
-					<input type="search" id="search" placeholder="Search..." />
+					<input type="search" id="search" placeholder="Search..." onfocus="this.placeholder=''" onblur="this.placeholder='Search...'"/>
 				</div>
 			</div>
 		</div>
@@ -51,8 +51,10 @@
 
 
 		<!-- javascript -->
-		<script src="../js/app.js"></script>
 		<script src="../js/titlebar.js"></script>
+		<script type="../js/search.js"></script>
+
+		</script>
 		<!-- end js -->
 
 

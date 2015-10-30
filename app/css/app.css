@@ -10,18 +10,17 @@
 @import url("../css/icon_style.css");
 
 p {
-	color: #ffffff;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 8px;
 }
 h1 {
+	font-weight: 400;
+	font-size: 11px;
+}
+p, h1 {
 	color: #ffffff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 11px;
 }
 html, body {
 		/* main background color */
