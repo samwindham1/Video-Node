@@ -2,10 +2,10 @@
 
 .action-buttons {
 	float: left;
-	height: 80%;
+	height: 100%;
 	width: 60px;
 	text-align: center;
-	padding: 24px 0px 0px 0px;
+	padding: 24px 0px 0px 10px;
 	overflow: hidden;
 }
 .action-buttons .button {
@@ -23,7 +23,7 @@
 /* icons */
 #back.button span,
 #forward.button span {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 #back.button:hover span,
 #forward.button:hover span {

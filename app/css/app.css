@@ -23,16 +23,14 @@ h1 {
 	font-weight: 400;
 	font-size: 11px;
 }
-html {
-	margin: 0px;
-	padding: 0px;
+html, body {
+		/* main background color */
+	background-color: #1b1b1b;
+	height: 100%;
 	overflow: hidden;
 	-webkit-user-select: none;
 }
-body {
-	/* main background color */
-	background-color: #1f1f1f;
-}
+
 /** {
 	border: 1px dotted #FFFFFF;
 }*/
