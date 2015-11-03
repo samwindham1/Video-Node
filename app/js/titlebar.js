@@ -1,7 +1,3 @@
-/**
- * http://usejsdoc.org/
- */
-
 //Load native UI library
 var gui = require('nw.gui'); //or global.window.nwDispatcher.requireNwGui()
 //Get the current window

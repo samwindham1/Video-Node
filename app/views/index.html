@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="VideoNode">
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Video Node</title>
-		<link rel="stylesheet" href="../css/app.css" type="text/css">
-		<!-- other css -->
+
+		<!-- angularJS -->
+		<script type="text/javascript" src="../../node_modules/angular/angular.min.js"></script>
+		<script type="text/javascript" src="../../node_modules/angular/angular-resource.min.js"></script>
+		<script src="../js/app.js"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="../css/index.css" type="text/css">
+
 	</head>
 	<body>
 		<header class="titlebar">
@@ -44,19 +51,31 @@
 			</div>
 		</div>
 
-		<!-- <div class="container">
+		<!-- Main App -->
+		<div class="app">
+			<div class="test-buttons">
+				<div id="insert-movie" class="button">
+					<h1>Insert</h1>
+				</div>
+
+				<div id="remove-movie" class="button">
+					<h1>Remove</h1>
+				</div>
+			</div>
+
+			<div class="list-movies" ng-controller="MovieController as list">
+				<div class="movie-row" ng-repeat="movie in list.movies">
+					<h1>{{ movie.title }} ({{ movie.year }})</h1>
+				</div>
+			</div>
+		</div>
 
 
-		</div> -->
-
-
-		<!-- javascript -->
+		<!-- scripts -->
+		<!-- <script src="../js/index.js"></script> -->
 		<script src="../js/titlebar.js"></script>
-		<script type="../js/search.js"></script>
-
-		</script>
-		<!-- end js -->
-
+		<script src="../js/search.js"></script>
+		<script src="../js/menubar.js"></script>
 
 	</body>
 </html>
