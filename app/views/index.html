@@ -43,12 +43,15 @@
 			</div>
 
 			<!-- Search Box -->
-			<div class="searchbox">
-				<div class="container-1">
-					<span class="icon icon-search"></span>
-					<input type="search" id="search" placeholder="Search..." onfocus="this.placeholder=''" onblur="this.placeholder='Search...'"/>
-				</div>
+			<div class="searchbox" ng-controller="SearchController">
+			  <form class="container-1" autocomplete="off">
+			    <span class="icon icon-search"></span>
+			    <input ng-change="setQuery()" ng-focus="clear()" ng-keyup="$event.keyCode == 13 && blurOnEnter($event)" ng-model="text" type="search" id="search" />
+			  </form>
+			  <h1>({{query}})</h1>
 			</div>
+
+
 		</div>
 
 		<!-- Main App -->
@@ -63,9 +66,14 @@
 				</div>
 			</div>
 
-			<div class="list-movies" ng-controller="MovieController as list">
-				<div class="movie-row" ng-repeat="movie in list.movies">
-					<h1>{{ movie.title }} ({{ movie.year }})</h1>
+			<div class="list-movies" ng-controller="MovieController as library">
+				<div class="movie-tile" ng-repeat="movie in library.movies">
+					<div class="tile-poster" >
+						<img ng-src={{movie.images[0]}} height="180" text-align="center" draggable="false"/>
+					</div>
+					<div class="tile-title">
+						<h1>{{ movie.title }} ({{ movie.year }})</h1>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -74,7 +82,7 @@
 		<!-- scripts -->
 		<!-- <script src="../js/index.js"></script> -->
 		<script src="../js/titlebar.js"></script>
-		<script src="../js/search.js"></script>
+		<!-- <script src="../js/search.js"></script> -->
 		<script src="../js/menubar.js"></script>
 
 	</body>

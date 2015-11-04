@@ -12,17 +12,34 @@
 	padding-top: 2px;
 	/*border: 1px dotted #FFFFFF;*/
 }
-.movie-row {
-	background-color: #942525;
+
+
+.list-movies {
+	display: block;
+	clear: left;
+	padding-top: 1px;
+	width: 90%;
+	margin: 0px auto;
+	height: 100%;
+	overflow-x: scroll;
+}
+.movie-tile {
+	float: left;
+	height: auto;
+	width: 150px;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+  -webkit-transition: background 0.25s ease;
+}
+.movie-tile:hover {
+	background-color: #2a2a2a;
+	cursor: default;
 }
 
 .test-buttons {
 	height: auto;
-}
-.list-movies {
-	clear: left;
-	padding-top: 1px;
-	height: 100%;
+	display: block;
 }
 #insert-movie.button,
 #remove-movie.button {
